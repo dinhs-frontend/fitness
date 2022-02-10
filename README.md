@@ -1,7 +1,7 @@
 ### Jobstory/feature
 First website I building with HTML and CSS. 
 
-![Lufmi](https://github.com/dinhs-frontend/Dating-app/blob/master/Wiki-IMG/homepage.jpg)
+![Fitness](https://github.com/dinhs-frontend/fitness/blob/master/internetstandaarden/fitness-home.png)
 ***
 ### **How to install**
 `$ git https://github.com/dinhs-frontend/fitness.git`
