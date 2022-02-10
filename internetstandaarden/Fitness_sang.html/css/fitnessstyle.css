@@ -1,0 +1,245 @@
+* {
+	font-family:'Times New Roman', Times, serif;
+	color: #D3D3D3;
+	padding: 0;
+	margin: 0;
+}
+
+/*zorgt er voor dat deze pagina goed geordererd staat*/
+.pagina1 {
+	margin: 0;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(image/achtergrond1.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	margin-left: 8vw;
+	margin-right: 8vw;
+}
+
+
+
+#hoofdmenu {
+	min-height: 80vh;
+	text-align: center;
+
+}
+
+#hoofdmenu h1 {
+	font-size: 8em;
+	letter-spacing: 10px;
+
+}
+
+.intro {
+	width: 47%;
+    float: right;
+    padding: 20px;
+	padding-left: 3rem;
+
+}
+
+#title h1, h2 {
+	color: transparent;
+	font-size: 8em;
+	-webkit-text-stroke-width: 3px;
+	-webkit-text-stroke-color: white;
+	margin-bottom: 0;
+	padding: 0;
+	text-align: left;
+}
+
+
+/* Grooter letter voor h1 en p "home" pagina*/
+.note {
+	font-size: 2em;
+	padding: 10px ;
+	padding-left: 0;
+	text-align: left;
+	color: white;
+	
+}
+
+#hoofdmenu nav{
+margin-top: 4rem;
+display: flex;
+padding-left: 5px;
+}
+
+
+/* de grootte en kleuren van de nav bar*/
+#meerbutton {
+	border: 3px solid;
+	padding: 10px 30px;
+	color: white;
+	text-decoration: none;
+}
+
+/* wanneer je met je muis op de nav bar staat veranderd het van kleur*/
+#meerbutton:hover {
+	background-color: goldenrod;
+	color: white;
+	transition: 0.4s;
+}
+
+/*zorg dat alle pagina automatische deze waarde krijgt, zo dat het op orde staat*/
+.pagina {
+	/*
+	width: 1090px;
+	margin: 40px auto 20px auto;
+*/
+	background-image: url(image/fitness-wallpaper.jpg);
+	/* Bron Foto: https: //stmed.net/sites/default/files/fitness-wallpapers-31078-8506333.jpg */
+	background-repeat: no-repeat;
+	background-position: right;
+	background-attachment: fixed;
+	background-size: 45em;
+
+}
+
+.pagina {
+	margin-left: 8vw;
+	margin-right: 8vw;
+}
+
+/*achtergrond van alle pagina*/
+body {
+	background-color: black;
+}
+
+
+/* Geef menu Balk ruimte*/
+header ul {
+	margin: 2em;
+	list-style: none
+}
+
+/*De vorm van het menu balk*/
+header ul li {
+	float: left;
+	margin-right: 2em;
+	text-align: center;
+}
+
+/* Tekst styling*/
+header ul li a {
+	text-decoration: none;
+	color: white;
+	padding: 5px 10px;
+	border: 1px;
+	transition: 0.6s ease;
+}
+
+/*menu balk veranderd van kleur ,als je muis er op staat*/
+header ul li a:hover {
+	background-color: goldenrod;
+	color: white;
+	border-radius: 5px;
+}
+
+header ul li a:active {
+	background-color: dodgerblue;
+	transition: 1s ease;
+}
+
+header {
+	display: flex;
+	justify-content: flex-end;
+}
+
+main {
+	margin-top: 3em;
+}
+
+h1 {
+	padding: 0px 0px 30px 0px;
+	color: gold;
+	font-size: 2em;
+}
+
+/* h2,
+h3 {
+	color: darkgray;
+} */
+
+#quote {
+	min-height: 0;
+}
+
+blockquote {
+	padding: 0px 1% 10px 3%;
+}
+
+blockquote p {
+	font-size: 2em;
+	margin-top: 0;
+	color: gold;
+
+}
+
+iframe {
+	margin-left: 8vw;
+	margin-top: 1em;
+}
+
+/* voor mijn eigen footer */
+footer {
+	padding: 20px;
+	text-align: center;
+	color: grey;
+	bottom: 0;
+	display: block;
+    margin-top: 1.5rem;
+
+}
+
+.schemapagina {
+	margin-left: 8vw;
+	margin-right: 8vw;
+}
+
+/*tabel styling (kleur)*/
+table th,
+td {
+	background: grey;
+	border: black;
+
+}
+
+/* Dit is de afmeting van de foto's in tabel bij de schema pagina */
+.table-image {
+	height: auto;
+	width: 300px;
+}
+
+/*grootte tabbellen*/
+td {
+	width: 30%;
+	padding: 20px;
+}
+
+/*quote boven tabbel*/
+q {
+	margin-left: 8vw;
+}
+
+/* zorgt voor ruimte voor de teksten*/
+p {
+	padding: 15px 40% 15px 0%;
+}
+
+/* alle strong elementen een grijze kleur, zodat het duidelijker is*/
+strong {
+	color: gold;
+}
+
+.tabel {
+	margin: 0;
+	margin-left: inherit;
+	margin-right: inherit;
+}
+
+section {
+	min-height: 80vh;
+	margin-top: 3em;
+}
