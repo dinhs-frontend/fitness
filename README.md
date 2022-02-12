@@ -1,5 +1,5 @@
-### Jobstory/feature
-First website I build with HTML and CSS. 
+### Feature
+First website I build with HTML and CSS. For the school subject Internetstandaarden. 
 
 ![Fitness](https://github.com/dinhs-frontend/fitness/blob/master/internetstandaarden/fitness-home.png)
 ***
